@@ -1,0 +1,313 @@
+<div class="flex justify-center dimmed2" id="survey-layout" style="height: 1767px;">
+    <div id="vote2" class="px-8 py-6">
+        <div id="survey-intro" style="display: none;">
+            <div class="flex justify-center text-center relative items-center">
+                <img class="logo1" src="/assets/images/survey/okky-logo.png" srcset="/assets/images/survey/okky-logo@4x.png 4x,
+                  /assets/images/survey/okky-logo@3x.png 3x,
+                  /assets/images/survey/okky-logo@2x.png 2x,
+                  /assets/images/survey/okky-logo.png 1x,">
+            </div>
+
+
+            <div class="text-center" style="margin-top: 32px;">
+                <p class="font-semibold text-md" style="line-height: 1.8rem;">
+                    올해 상반기, 놀라운 <span class="text-blue-500">변화</span>를 준비 중입니다.
+                    <br>
+                    <br>
+                    새로운 시대를 맞이할 여러분의 당연한 <strong class="text-red-500">권리</strong>!
+                    <br>
+                    변화하는 <span class="text-blue-500">OKKY</span>에 투표해 주세요!
+                </p>
+            </div>
+
+            <div class="flex justify-center mt-40" style="padding: 0 35px;">
+                <img class="illust" height="221" src="/assets/images/survey/illust-vote@1x.png" srcset="/assets/images/survey/illust-vote@4x.png 4x,
+                      /assets/images/survey/illust-vote@3x.png 3x,
+                      /assets/images/survey/illust-vote@2x.png 2x,
+                      /assets/images/survey/illust-vote@1x.png 1x,
+            ">
+            </div>
+
+            <div class="flex justify-center mt-20">
+                <button class="bg-okky-blue font-bold text-white rounded-lg shadow-lg border-0 p-4 px-10" type="button"
+                    id="survey-intro-btn">투표하러 Go!</button>
+            </div>
+        </div>
+        <div id="survey-main" style="padding-bottom: 0.25rem;">
+            <div class="flex justify-center text-center relative items-center">
+                <div>
+                    <h2 class="flex items-center font-bold">
+                        <img class="logo" src="/assets/images/survey/okky-logo.png" srcset="/assets/images/survey/okky-logo@4x.png 4x,
+                  /assets/images/survey/okky-logo@3x.png 3x,
+                  /assets/images/survey/okky-logo@2x.png 2x,
+                  /assets/images/survey/okky-logo.png 1x,">
+                        선택 2022!
+                    </h2>
+                    <span class="text-lg font-bold">
+                        나의 최애 <span class="text-red-500">Pick</span>은?!
+                    </span>
+                </div>
+                <div class="click-image">
+                    <img src="/assets/images/survey/click@1x.png" srcset="/assets/images/survey/click@4x.png 4x,
+                  /assets/images/survey/click@3x.png 3x,
+                  /assets/images/survey/click@2x.png 2x,
+                  /assets/images/survey/click@1x.png 1x,
+        ">
+                </div>
+            </div>
+
+            <hr class="hr">
+
+            <div class="text-center">
+                <p style="line-height: 2.5rem;">
+                    <span class="font-semibold bg-gray-200 p-2 px-4 rounded-sm">올해 상반기, 놀라운 <span
+                            class="text-blue-500">변화</span>를 준비 중입니다.</span>
+                    <br>
+                    <strong class="text-red-500">클릭 세 번</strong>으로 OKKY 개편에 참여해 주세요.
+                </p>
+            </div>
+
+            <hr class="hr" style="margin-top: 1rem;">
+
+            <form id="survey-form">
+                <div class="space-y-4">
+                    <div class="space-y-0.5">
+                        <span class="text-gray-700">1. 나의 OKKY 최애 카테고리를 투표해 주세요! <span
+                                class="text-red-500 text-sm">(필수)</span></span>
+
+                        <div class="flex flex-wrap space-x-5">
+                            <div class="flex items-center py-2">
+                                <input id="q1-c1" name="a1" type="radio" value="1"
+                                    class="focus:ring-indigo-500 text-indigo-600 border-1 border-gray-300 m-0">
+                                <label for="q1-c1" class="ml-2 block text-sm font-medium text-gray-700 m-0">
+                                    Q&amp;A
+                                </label>
+                            </div>
+
+                            <div class="flex items-center py-2">
+                                <input id="q1-c2" name="a1" type="radio" value="2"
+                                    class="focus:ring-indigo-500 text-indigo-600 border-1 border-gray-300 m-0">
+                                <label for="q1-c2" class="ml-2 block text-sm font-medium text-gray-700 m-0">
+                                    Tech
+                                </label>
+                            </div>
+
+                            <div class="flex items-center py-2">
+                                <input id="q1-c3" name="a1" type="radio" value="3"
+                                    class="focus:ring-indigo-500 text-indigo-600 border-1 border-gray-300 m-0">
+                                <label for="q1-c3" class="ml-2 block text-sm font-medium text-gray-700 m-0">
+                                    커뮤니티
+                                </label>
+                            </div>
+
+                            <div class="flex items-center py-2">
+                                <input id="q1-c4" name="a1" type="radio" value="4"
+                                    class="focus:ring-indigo-500 text-indigo-600 border-1 border-gray-300 m-0">
+                                <label for="q1-c4" class="ml-2 block text-sm font-medium text-gray-700 m-0">
+                                    칼럼
+                                </label>
+                            </div>
+
+                            <div class="flex items-center py-2">
+                                <input id="q1-c5" name="a1" type="radio" value="5"
+                                    class="focus:ring-indigo-500 text-indigo-600 border-1 border-gray-300 m-0">
+                                <label for="q1-c5" class="ml-2 block text-sm font-medium text-gray-700 m-0">
+                                    Jobs
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-0.5">
+                        <span>2. 빠른 개선을 원하는 카테고리를 투표해 주세요! <span class="text-red-500 text-sm">(필수)</span></span>
+
+                        <div class="flex flex-wrap space-x-5">
+                            <div class="flex items-center py-2">
+                                <input id="q2-c1" name="a2" type="radio" value="1"
+                                    class="focus:ring-indigo-500 text-indigo-600 border-1 border-gray-300 m-0">
+                                <label for="q2-c1" class="ml-2 block text-sm font-semibold text-gray-700 m-0">
+                                    Q&amp;A
+                                </label>
+                            </div>
+
+                            <div class="flex items-center py-2">
+                                <input id="q2-c2" name="a2" type="radio" value="2"
+                                    class="focus:ring-indigo-500 text-indigo-600 border-1 border-gray-300 m-0">
+                                <label for="q2-c2" class="ml-2 block text-sm font-medium text-gray-700 m-0">
+                                    Tech
+                                </label>
+                            </div>
+
+                            <div class="flex items-center py-2">
+                                <input id="q2-c3" name="a2" type="radio" value="3"
+                                    class="focus:ring-indigo-500 text-indigo-600 border-1 border-gray-300 m-0">
+                                <label for="q2-c3" class="ml-2 block text-sm font-medium text-gray-700 m-0">
+                                    커뮤니티
+                                </label>
+                            </div>
+
+                            <div class="flex items-center py-2">
+                                <input id="q2-c4" name="a2" type="radio" value="4"
+                                    class="focus:ring-indigo-500 text-indigo-600 border-1 border-gray-300 m-0">
+                                <label for="q2-c4" class="ml-2 block text-sm font-medium text-gray-700 m-0">
+                                    칼럼
+                                </label>
+                            </div>
+
+                            <div class="flex items-center py-2">
+                                <input id="q2-c5" name="a2" type="radio" value="5"
+                                    class="focus:ring-indigo-500 text-indigo-600 border-1 border-gray-300 m-0">
+                                <label for="q2-c5" class="ml-2 block text-sm font-medium text-gray-700 m-0">
+                                    Jobs
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-1">
+                        <span>3. 서비스 향상을 위해 바라는 점을 적어주세요. <span class="text-sm">(선택)</span></span>
+
+                        <div class="flex items-center">
+                            <input name="a3" type="text"
+                                class="p-4 py-2 text-gray-600 border-1 border-gray-300 m-0 rounded-sm w-full shadow-sm"
+                                placeholder="예) 게시글 에디터 기능이 개선되면 좋겠어요.">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center" style="margin-top: 17px;">
+                    <div class="space-x-2" style="margin-right: -8.9rem;">
+                        <button disabled="true"
+                            class="bg-indigo-600 bg-gray-400 text-white rounded-sm shadow-sm border-0 p-4 px-10 outline outline-2 outline-offset-2 outline-indigo-500"
+                            type="button" id="survey-submit-btn">보내기</button>
+                        <button class="bg-white text-sm text-gray-400 rounded-sm border-0 p-4 underline" type="button"
+                            id="survey-after-btn">나중에 하기</button>
+                    </div>
+                    <p class="text-sm text-gray-400 mt-12 text-center" style="line-height: 1.5rem;">이 설문은 설문 기간 동안 한 번만
+                        표시됩니다.<br> 단, <a href="https://support.google.com/chrome/answer/95647?hl=ko"
+                            class="default-cookie-option-link" target="_blank">[기본 쿠키 저장옵션]</a>을 꺼놓은 경우 계속 표시될 수 있습니다.
+                    </p>
+                </div>
+            </form>
+        </div>
+        <div id="survey-result" style="display:none; padding-bottom: 0.25rem;">
+            <div class="flex justify-center text-center relative items-center">
+                <div>
+                    <h2 class="flex items-center font-bold">
+                        <img class="logo" src="/assets/images/survey/okky-logo.png" srcset="/assets/images/survey/okky-logo@4x.png 4x,
+                  /assets/images/survey/okky-logo@3x.png 3x,
+                  /assets/images/survey/okky-logo@2x.png 2x,
+                  /assets/images/survey/okky-logo.png 1x,">
+                        선택 2022!
+                    </h2>
+                    <span class="text-lg font-bold">
+                        나의 최애 <span class="text-red-500">Pick</span>은?!
+                    </span>
+                </div>
+                <div class="click-image">
+                    <img src="/assets/images/survey/click@1x.png" srcset="/assets/images/survey/click@4x.png 4x,
+                  /assets/images/survey/click@3x.png 3x,
+                  /assets/images/survey/click@2x.png 2x,
+                  /assets/images/survey/click@1x.png 1x,
+        ">
+                </div>
+            </div>
+
+            <hr class="hr">
+
+            <div class="flex justify-center">
+                <p class="result-text result-text-count m-0" style="display:none;">총 <span>1,000</span>명의 OKKY人이
+                    투표해주셨습니다.</p>
+                <strong class="result-text" style="display:none;">소중한 투표 감사합니다. :)</strong>
+            </div>
+
+            <hr class="hr">
+
+            <div class="flex flex-row space-x-5 justify-center py-4">
+                <div class="flex items-center space-x-1">
+                    <div class="rounded-full circle bg-teal-500">
+                    </div>
+                    <span class="text-sm">Q&amp;A</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <div class="rounded-full circle bg-amber-400">
+                    </div>
+                    <span class="text-sm">Tech</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <div class="rounded-full circle bg-blue-600">
+                    </div>
+                    <span class="text-sm">커뮤니티</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <div class="rounded-full circle bg-pink-600">
+                    </div>
+                    <span class="text-sm">칼럼</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <div class="rounded-full circle bg-indigo-600">
+                    </div>
+                    <span class="text-sm">Jobs</span>
+                </div>
+            </div>
+
+            <div class="flex items-center mt-20">
+                <div class="flex-1 space-y-5">
+                    <div>
+                        <span class="flex text-md justify-center font-bold">카테고리 선호도</span>
+
+                        <div class="flex flex-row mt-12 mb-4 mx-4 divide-x" data-result="a1">
+                            <div class="gauge bg-teal-500" style="width: 40%;">
+                                <span class="text-center text-gray-500 text-sm">40%</span>
+                            </div>
+                            <div class="gauge bg-amber-400" style="width: 20%;">
+                                <span class="text-center text-gray-500 text-sm">20%</span>
+                            </div>
+                            <div class="gauge bg-blue-600" style="width: 20%;">
+                                <span class="text-center text-gray-500 text-sm">20%</span>
+                            </div>
+                            <div class="gauge bg-pink-600" style="width: 5%;">
+                                <span class="text-center text-gray-500 text-sm">5%</span>
+                            </div>
+                            <div class="gauge bg-indigo-600" style="width: 15%;">
+                                <span class="text-center text-gray-500 text-sm">15%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="flex text-md justify-center font-bold">개선 희망도</span>
+
+                        <div class="flex flex-row mt-12 mb-5 mx-4 divide-x" data-result="a2">
+                            <div class="gauge bg-teal-500" style="width: 40%;">
+                                <span class="text-center text-gray-500 text-sm">40%</span>
+                            </div>
+                            <div class="gauge bg-amber-400" style="width: 20%;">
+                                <span class="text-center text-gray-500 text-sm">20%</span>
+                            </div>
+                            <div class="gauge bg-blue-600" style="width: 20%;">
+                                <span class="text-center text-gray-500 text-sm">20%</span>
+                            </div>
+                            <div class="gauge bg-pink-600" style="width: 5%;">
+                                <span class="text-center text-gray-500 text-sm">5%</span>
+                            </div>
+                            <div class="gauge bg-indigo-600" style="width: 15%;">
+                                <span class="text-center text-gray-500 text-sm">15%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center" style="margin-top: .15rem;">
+                <button
+                    class="bg-indigo-600 text-white rounded-sm border-0 p-4 px-10 outline outline-2 outline-offset-2 outline-indigo-500"
+                    type="button" id="survey-close-btn">창닫기</button>
+
+                <p class="text-sm text-gray-400 mt-12 text-center" style="line-height: 1.5rem;">이 설문은 설문 기간 동안 한 번만
+                    표시됩니다.<br> 단, <a href="https://support.google.com/chrome/answer/95647?hl=ko"
+                        class="default-cookie-option-link" target="_blank">[기본 쿠키 저장옵션]</a>을 꺼놓은 경우 계속 표시될 수 있습니다.</p>
+            </div>
+        </div>
+    </div>
+</div>
