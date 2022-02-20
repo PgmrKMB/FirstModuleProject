@@ -3,8 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>대신 결정해드립니다</title>
     <link href="sampleMain.css" rel="stylesheet">
 </head>
@@ -30,6 +28,9 @@
             </ul>
         </nav>
         <!-- #lnb -->
+        <div class="modal">
+            <div class="modal_body">어떤거 살까??</div>
+        </div>
         <div id="container">
             <table class="table">
                 <thead>
@@ -44,7 +45,8 @@
                     <tr>
                         <td>6</td>
                         <td>👛💵🛍️</td>
-                        <td>어떤 거 살까??</td>
+                        <td class="open-popup">어떤거 살까??</td>
+                        </td>
                         <td>17:50</td>
                     </tr>
                     <tr>
@@ -96,7 +98,31 @@
     </div>
     <!-- #wrap -->
 
+    <script>
+        const body = document.querySelector('body');
+        const modal = document.querySelector('.modal');
+        const OpenPopup = document.querySelector('.open-popup');
 
+        OpenPopup.addEventListener('click', () => {
+            modal.classList.toggle('show');
+
+            if (modal.classList.contains('show')) {
+                body.style.overflow = 'hidden';
+            }
+        });
+
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.classList.toggle('show');
+
+                if (!modal.classList.contains('show')) {
+                    body.style.overflow = 'auto';
+                }
+            }
+        });
+    </script>
 </body>
+
+
 
 </html>
