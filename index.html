@@ -5,6 +5,56 @@
     <meta charset="UTF-8">
     <title>대신 결정해드립니다</title>
     <link href="sampleMain.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $('.open-popup').click(function () {
+                // $('.modal').toggleClass('show');
+
+                // if ($('.modal').hasClass('show')) {
+                //     $('body').css("overflow", "hidden");
+                // }
+            });
+            // $('.modal').click(function (event) {
+            //     if (event.target === modal) {
+            //         $('.modal').hasClass('show');
+
+            //         if (!$('.modal').toggleClass('show')) {
+            //             $('body').css("overflow", "auto");
+            //         }
+            //     }
+            // });
+
+
+        }); //ready
+
+
+        // const body = document.querySelector('body');
+        // const modal = document.querySelector('.modal');
+        // const OpenPopup = document.querySelector('.open-popup');
+
+        // OpenPopup.addEventListener('click', () => {
+        //     modal.classList.toggle('show');
+
+        //     if (modal.classList.contains('show')) {
+        //         body.style.overflow = 'hidden';
+        //     }
+        // });
+
+        // modal.addEventListener('click', (event) => {
+        //     if (event.target === modal) {
+        //         modal.classList.toggle('show');
+
+        //         if (!modal.classList.contains('show')) {
+        //             body.style.overflow = 'auto';
+        //         }
+        //     }
+        // });
+    </script>
+
+
 </head>
 
 <body>
@@ -61,19 +111,19 @@
                     <tr>
                         <td>6</td>
                         <td>👛💵🛍️</td>
-                        <td class="open-popup">어떤거 살까??</td>
+                        <td class="open-popup" id="a1">어떤거 살까??</td>
                         <td>17:50</td>
                     </tr>
                     <tr>
                         <td>5</td>
                         <td>🚶🚗🚅🛫🛳️🚶</td>
-                        <td class="open-popup">여행지 골라줘!</td>
+                        <td class="open-popup" id="a2">여행지 골라줘!</td>
                         <td>17:30</td>
                     </tr>
                     <tr>
                         <td>4</td>
                         <td>🍽️🍚🍝🥗🍕🍹🍽️</td>
-                        <td class="open-popup">오늘 점심 고민중...</td>
+                        <td class="open-popup" id="a3">오늘 점심 고민중...</td>
                         <td>11:20</td>
                     </tr>
                     <tr>
@@ -113,30 +163,6 @@
     </div>
     <!-- #wrap -->
 
-    <script>
-
-        const body = document.querySelector('body');
-        const modal = document.querySelector('.modal');
-        const OpenPopup = document.querySelector('.open-popup');
-
-        OpenPopup.addEventListener('click', () => {
-            modal.classList.toggle('show');
-
-            if (modal.classList.contains('show')) {
-                body.style.overflow = 'hidden';
-            }
-        });
-
-        modal.addEventListener('click', (event) => {
-            if (event.target === modal) {
-                modal.classList.toggle('show');
-
-                if (!modal.classList.contains('show')) {
-                    body.style.overflow = 'auto';
-                }
-            }
-        });
-    </script>
 </body>
 
 
