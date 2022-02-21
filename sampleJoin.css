@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #f6f5f7;
+	background: #d7f397;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -216,7 +216,7 @@ input {
 
 .social-container a img {
 	border: 1px solid #DDDDDD;
-	border-radius: 15px;
+	border-radius: 5px;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
