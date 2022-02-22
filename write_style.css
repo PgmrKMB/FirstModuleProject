@@ -92,6 +92,10 @@
 	padding-bottom: 20px;
 }
 
+#pollContainer .category_choice {
+	padding-bottom: 20px;
+}
+
 #pollContainer .item-calendar .input-tf{
 	width:120px;
 }
@@ -108,7 +112,22 @@
 	line-height: 1;
 }
 
+#pollContainer .category_choice .tit_header {
+	font-size: 16px;
+	font-weight: 600;
+	color:#333;
+	line-height: 1;
+}
+
 #pollContainer .section_header .vote_count {
+	border: none;
+	margin-left: 10px;
+	padding-bottom: 2px;
+	font-size: 13px;
+	line-height: 1;
+	color: #777;
+}
+#pollContainer .category_choice {
 	border: none;
 	margin-left: 10px;
 	padding-bottom: 2px;
@@ -123,6 +142,11 @@
 }
 
 #pollContainer .section_header::after{
+	content: "";
+	display: block;
+	clear:both;
+}
+#pollContainer .category_choice::after{
 	content: "";
 	display: block;
 	clear:both;

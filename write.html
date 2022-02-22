@@ -24,20 +24,28 @@
 
     <div id="pollContainer">
         <div class="section_vote">
-            <header class="section_header"><strong class="tit_header">투표생성</strong><select class="vote_count">
+            <header class="section_header"><strong class="tit_header">투표생성</strong>
+                <select class="vote_count">
                     <option value="1">1개 선택가능</option>
                     <option value="2">2개 선택가능</option>
                     <option value="3">3개 선택가능</option>
                     <option value="4">4개 선택가능</option>
+                </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <select class="category_choice"><strong class="tit_header">카테고리</strong>
+                    <option value="1">살까말까</option>
+                    <option value="2">갈까말까</option>
+                    <option value="3">뭐먹을까</option>
+                    <option value="4">뭐입을까</option>
                 </select>
 
 
 
                 <!-- 달력 -->
                 <div class="vote_date">
-                    <div class="item-calendar range"><span class="item-calendar__set"><input type="text"
-                                class="input-tf" placeholder="YYYY.MM.DD" value="2022.02.22"><button type="button"
-                                class="btn-calendar"><span class="ico-comm ico-calendar"></span></button></span>
+                    <div class="item-calendar range">
+                        <span class="item-calendar__set"><input type="text" class="input-tf" placeholder="YYYY.MM.DD" value="2022.02.22">
+                                <button type="button" class="btn-calendar"><span class="ico-comm ico-calendar"></span></button></span>
                         <div class="item-calendar__layer range">
                             <div class="item-calendar__nav"><button type="button" class="item-calendar__btn-prev"><span
                                         class="ico-comm">PREV</span></button><span class="item-calendar__info">2022년 02월
@@ -200,9 +208,12 @@
                             <div class="lab_inp"><label class="box_choice"><span class="txt_choice"><input type="text"
                                             class="txt_desc" placeholder="항목 입력" tabindex="2" value=""></span></label>
                             </div>
-                            <div class="thumbnail"><button type="button" class="ico_btn_image btn_image"></button><input
-                                    type="file" accept="image/*"></div>
-                        </div><span class="ico_btn_image ico_draghere"></span>
+                            <div class="thumbnail">
+                                <button type="button" class="ico_btn_image btn_image"></button>
+                                <input type="file" accept="image/*">
+                            </div>
+                        </div>
+                        <span class="ico_btn_image ico_draghere"></span>
                     </li>
                     <li class="item_vote" draggable="true" style="opacity: 1;">
                         <div class="inp_vote"><button type="button" class="ico_btn_image btn_remove" title="항목 삭제"
@@ -210,7 +221,7 @@
                             <div class="lab_inp"><label class="box_choice"><span class="txt_choice"><input type="text"
                                             class="txt_desc" placeholder="항목 입력" tabindex="3" value=""></span></label>
                             </div>
-                            <div class="thumbnail"><button type="button" class="ico_btn_image btn_image"></button><input
+                            <div class="thumbnail"><button type="button" class="ico_btn_image btn_image" ></button><input
                                     type="file" accept="image/*"></div>
                         </div><span class="ico_btn_image ico_draghere"></span>
                     </li>
@@ -244,8 +255,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="wrap_btn"><input type="button" class="btn_cmd btn_cancel" value="취소"><input type="button"
-                        class="btn_cmd btn_submit" disabled="" value="확인"></div>
+                <div class="wrap_btn">
+                    <input type="button" class="btn_cmd btn_cancel" value="취소">
+                    <input type="button" class="btn_cmd btn_submit" value="확인"></div>
             </div>
         </div>
     </div>

@@ -1,0 +1,39 @@
+
+#wrap{ min-width:100%; width:100%; }
+
+/*컨테이너 시작*/
+#container { width:900px; margin:0 auto; padding:30px 0; position:relative; }
+
+.mainTop { margin-bottom: 20px; }
+.mainTop h2 { margin-bottom:20px; font-weight:900; }
+.mainTop h3:before { content:""; display: inline-block; width:4px; height:20px; background:red; position:absolute; top:0; left:-10px; }
+.mainTop h3 { position: relative; margin-left:10px; color:#444; font-size:13px; font-weight: normal; float:left; }
+.mainTop h3 strong { color:red; }
+
+.mainTop .btn { border:1px solid #555; float:right; margin-left:6px; }
+.mainTop .btn a { display: block; padding:0 8px; }
+.mainTop .mainRec a { color:#b52c56; }
+
+/*게시글 목록*/
+table { width:100%; text-align: center; border-spacing: 0;  font-size:13px; position:relative; }
+table th { padding:5px 0; background:#f0f0f0; }
+table td {padding:8px 0; border-bottom:1px solid #eee; }
+table td:nth-child(3) { text-align: left; } 
+
+/*페이지*/
+.pager { margin: 25px 0 0; }
+.pager ul { display: flex; justify-content: center; }
+.pager li { display: inline-block; margin:0 5px; }
+.pager .on a { font-weight: bold; }
+
+.pager li .prev, .pager li .next {margin: 0 10px;}
+
+/**/
+.bottom_left { position:absolute; bottom:25px; left:0; }
+.bottom_left p { border:1px solid #999; float:left; margin-right:6px; }
+.bottom_left p a { padding:0 8px; }
+
+.bottom_right { position: absolute; bottom:25px; right:0; }
+.bottom_right select { height:22px; }
+.bottom_right input { width:130px; height:18px; padding:0 20px 0 5px; }
+.bottom_right .btn{ display: inline-block; background:url(../img/bottomsrc.jpg) no-repeat; border:none; position:absolute; top:3px; right:2px; width:18px; height:18px; padding:0; }
