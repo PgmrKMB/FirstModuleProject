@@ -2,16 +2,28 @@
 <html lang="ko">
 
 <head>
-    <link href="sampleJoin.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>회원가입</title>
+    <link href="/css/sampleMain.css" rel="stylesheet">
+    <link href="/css/sampleJoin.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <div id="wrap">
-        <header id="header"></header>
-        <!--#header-->
+    <header id="header">
+        <span class="logo" id="logo"><a href="index.html"><img src="images/wmc_logo2.png" width="100px"></a></span>
+        <span class="titletext" id="title">대신 결정해드립니다</span>
+        <nav id="gnb">
+            <ul>
+                <li><a href="join.html" target="_parent">로그인/회원가입</a></li>
+                <li><a href="mypage.html" target="_parent">마이페이지</a></li>
+                <li><a href="admin.html" target="_parent">관리자페이지</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- #header -->
+    <div id="jwrap">
         <div class="container" id="container">
             <div class="form-container sign-up-container">
                 <form action="#">
@@ -32,7 +44,7 @@
                     <h1>로그인</h1>
                     <div class="social-container">
                         <a href="#" class="social"><img src="images/kakao3.png" alt=""></a>
-                        <span>카카오로 로그인</span>
+                        <span>카카오 로그인</span>
                     </div>
                     <input type="email" placeholder="이메일" />
                     <input type="password" placeholder="비밀번호" />
@@ -57,10 +69,10 @@
         </div>
 
         <!--container-->
-        <footer id="footer"></footer>
         <!--#footer-->
     </div>
     <!--#wrap-->
+    <footer id="footer"></footer>
     <script>
         const signUpButton = document.getElementById('signUp');
         const signInButton = document.getElementById('signIn');

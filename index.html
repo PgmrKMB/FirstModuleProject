@@ -17,7 +17,7 @@
     <!-- 버튼  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="sampleMain.css" rel="stylesheet">
+    <link href="/css/sampleMain.css" rel="stylesheet">
 
 
 </head>
@@ -25,7 +25,7 @@
 <body>
     <header id="header">
         <span class="logo" id="logo"><a href="index.html"><img src="images/think.png" width="100px"></a></span>
-        <span class="titletext" id="title">대신 결정해드립니다</span>
+        <span class="titletext" id="title">대신 결정해드립니다~</span>
         <nav id="gnb">
             <ul>
                 <li><a href="join.html" target="_parent">로그인/회원가입</a></li>
@@ -37,32 +37,12 @@
     </header>
     <!-- #header -->
 
-
     <div id="wrap">
         <br>
         <div id="writing">
             <button type="button" class="btn btn-primary" onclick="location.href='write.html' ">글쓰기</button>
         </div><br>
         <!-- #writing -->
-        <!-- #lnb -->
-        <div class="modal">
-            <div class="modal_body">어떤거 살까??</div>
-        </div>
-        <div class="modal">
-            <div class="modal_body">여행지 골라줘!</div>
-        </div>
-        <div class="modal">
-            <div class="modal_body">오늘 점심 고민중...</div>
-        </div>
-        <div class="modal">
-            <div class="modal_body">오늘 추운데 어떡할까?</div>
-        </div>
-        <div class="modal">
-            <div class="modal_body">오늘 넘 더운거같아</div>
-        </div>
-        <div class="modal">
-            <div class="modal_body">아침밥 골라줘어어</div>
-        </div>
 
         <nav id="lnb">
             <ul>
@@ -72,6 +52,7 @@
                 <li><a href="#">🚶🚗🚅🛫🛳️🚶</a></li>
                 <li><a href="#">👛💵🛍️</a></li>
             </ul>
+            <!-- #lnb -->
         </nav><br>
         <div id="container">
             <table class="table">
@@ -109,7 +90,7 @@
                         <td>08:10</td>
                     </tr>
                     <tr>
-                        <td>4</td>
+                        <td>2</td>
                         <td>👗👕👚👔</td>
                         <td class="open-popup">오늘 넘 더운거같아</td>
                         <td>08:10</td>
@@ -125,9 +106,29 @@
             <div class="pager"></div>
         </div><br>
         <!-- #container -->
-        <hr>
     </div>
     <!-- #wrap -->
+    <div id="modalwrap">
+        <div class="modal">
+            <div class="modal_body">어떤거 살까??</div>
+        </div>
+        <div class="modal">
+            <div class="modal_body">여행지 골라줘!</div>
+        </div>
+        <div class="modal">
+            <div class="modal_body">오늘 점심 고민중...</div>
+        </div>
+        <div class="modal">
+            <div class="modal_body">오늘 추운데 어떡할까?</div>
+        </div>
+        <div class="modal">
+            <div class="modal_body">오늘 넘 더운거같아</div>
+        </div>
+        <div class="modal">
+            <div class="modal_body">아침밥 골라줘어어</div>
+        </div>
+    </div>
+    <!-- modalwrap -->
     <footer id="footer">
         <ul>
             <li><a href="notice.html">
@@ -150,7 +151,6 @@
         </ul>
     </footer>
     <!-- #footer -->
-
     <script>
         const body = document.querySelector('body');
         const modal = document.querySelector('.modal');
@@ -174,12 +174,6 @@
             }
         });
     </script>
-
-
-
-
 </body>
-
-
 
 </html>

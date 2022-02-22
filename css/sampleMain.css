@@ -1,6 +1,6 @@
 
 /* header */
-#header {display:inline-block; width: 100%; height: 100%; padding-right: 20px;}
+#header {display:inline-block; width: 100%; height: 10vh; padding-right: 20px;}
 #logo {float: left; padding-left: 20px;}
 #gnb>ul{display:flex; justify-content: flex-end; list-style: none;}
 #gnb>ul>li {padding-left: 20px; }
@@ -9,7 +9,10 @@ a{text-decoration-line: none;}
 
 
 
-#wrap{ min-width:100%; width:100%; }
+#wrap{
+  min-width:100%; width:100%; height:78vh; margin-top: 1vh ; margin-bottom: 1vh ;
+  background:linear-gradient(45deg,lightgreen,yellow);
+}
 
 .modal.show {
   display: block;
@@ -69,24 +72,24 @@ a{text-decoration-line: none;}
     list-style: none;
     display: flex;
     justify-content:space-around;
-    padding-left: 100px;
-    padding-right: 100px;
+    border: 2px solid hotpink;
+    border-radius: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
 
 /* footer */
 
   #footer {
-    width:0 auto; height: 70px; margin:0 auto; padding:15px 0 40px; 
+    width:100%; height: 10vh; margin:0 auto; padding:15px 0 40px; 
    background:linear-gradient(45deg,lightgreen,yellow);
-   
   }
   
   #footer ul {
     list-style: none;
     display: flex;
    justify-content:space-around;
-   padding-left: 100px;
-   padding-right: 100px;
-
+   padding-left: 150px;
+   padding-right: 150px;
   }
