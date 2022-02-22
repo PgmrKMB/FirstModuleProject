@@ -1,4 +1,14 @@
 
+/* header */
+#header {display:inline-block; width: 1500px; height: 100px;}
+#logo {float: left;}
+#title {font-family: 'Sunflower'; }
+nav>ul {display:flex; justify-content: flex-end; list-style: none;
+  font-family: 'Sunflower';}
+
+
+
+
 #wrap{ min-width:100%; width:100%; }
 
 .modal.show {
