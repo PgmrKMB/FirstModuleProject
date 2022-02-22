@@ -2,10 +2,10 @@
 /* header */
 #header {display:inline-block; width: 1500px; height: 100px;}
 #logo {float: left;}
-#title {font-family: 'Sunflower'; }
-nav>ul {display:flex; justify-content: flex-end; list-style: none;
-  font-family: 'Sunflower';}
-
+#gnb>ul{display:flex; justify-content: flex-end; list-style: none;}
+#gnb>ul>li {padding-left: 20px; }
+*{font-family: 'Sunflower';}
+a{text-decoration-line: none;}
 
 
 
@@ -38,6 +38,32 @@ nav>ul {display:flex; justify-content: flex-end; list-style: none;
 
   #wrap {background:linear-gradient(45deg,lightgreen,yellow);}
 
+  
+  #container {
+    display:flex;
+    position: relative;
+    justify-content: center;
+    
+  }
+  
+  #lnb {
+    display: block;
+    position: relative;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+  }
+  
+  #lnb ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+
+/* footer */
+
   #footer {
     width:0 auto; height: 150px; margin:0 auto; padding:15px 0 40px; 
    background:linear-gradient(45deg,lightgreen,yellow);
@@ -52,25 +78,3 @@ nav>ul {display:flex; justify-content: flex-end; list-style: none;
    padding-right: 100px;
 
   }
-  
- #container {
-  display:flex;
-  position: relative;
-  justify-content: center;
-  
-}
-
- #lnb {
-  display: block;
-  position: relative;
-  border: 2px solid aliceblue;
-  border-radius: 20px;
- }
-
- #lnb ul {
-  list-style: none;
-  display: flex;
- justify-content:space-around;
- padding-left: 100px;
- padding-right: 100px;
- }
