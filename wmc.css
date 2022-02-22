@@ -1,8 +1,10 @@
-/* * { font-weight: bold; color:darkolivegreen}
+footer { width:900px; margin:0 auto; padding:15px 0 40px;  border-top:1px solid #ccc; position: relative; }
 nav {background-color:lightgray; width:100%; height:200px;}
-nav>ul>li {display:inline-block;} */
+nav>ul {text-align:flex; }
+nav>ul>li {display:inline-block; }
+a { font-weight: bold; color:darkolivegreen}
 
+#header {width:50px;}
 
-wmcfooter { width:900px; margin:0 auto; padding:15px 0 40px;  border-top:1px solid #ccc; position: relative; }
 
 
