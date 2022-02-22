@@ -65,52 +65,6 @@
     font-size: 14px;
   }
 
-  .writeList {
-    width: 100%;
-    text-align: center;
-    border-radius: 5px;
-    border: 1px solid #eee;
-    font-size: 15px;
-    margin-top: 40px;
-  }
-
-  .writeList a {
-    display: block;
-    padding: 0 20px 10px;
-  }
-
-  .writeList .mypost {
-    float: left;
-    width: 50%;
-    border-right: 1px solid #eee;
-    box-sizing: border-box;
-  }
-
-  .writeList .mypost:hover a {
-    text-decoration: underline;
-  }
-
-  .writeList .myreply {
-    float: left;
-    width: 50%;
-  }
-
-  .writeList .myreply:hover a {
-    text-decoration: underline;
-  }
-
-  .writeList a:before {
-    content: "";
-    display: block;
-    background: url(img/icommon.svg) no-repeat center 15px/130px 130px;
-    margin: 0 auto;
-    width: 80px;
-    height: 80px;
-  }
-
-  .writeList .myreply a:before {
-    background-position: center -60px;
-  }
 
   .editp {
     margin-top: 30px;

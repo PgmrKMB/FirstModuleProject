@@ -25,3 +25,42 @@
 
     transform: translateX(-50%) translateY(-50%);
   }
+
+  #wrap {background:linear-gradient(45deg,lightgreen,yellow);}
+
+  #footer {
+    width:0 auto; height: 150px; margin:0 auto; padding:15px 0 40px; 
+   background:linear-gradient(45deg,lightgreen,yellow);
+   
+  }
+  
+  #footer ul {
+    list-style: none;
+    display: flex;
+   justify-content:space-around;
+   padding-left: 100px;
+   padding-right: 100px;
+
+  }
+  
+ #container {
+  display:flex;
+  position: relative;
+  justify-content: center;
+  
+}
+
+ #lnb {
+  display: block;
+  position: relative;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+ }
+
+ #lnb ul {
+  list-style: none;
+  display: flex;
+ justify-content:space-around;
+ padding-left: 100px;
+ padding-right: 100px;
+ }
