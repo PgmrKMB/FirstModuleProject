@@ -2,7 +2,8 @@
 /* header */
 header {
   width: 100%; height: 100px; padding-right: 20px;
-  background:linear-gradient(45deg,lightgreen,yellow);
+  background-color:#F3ECEA;
+  /* background:linear-gradient(45deg,lightgreen,yellow); */
   font-family: 'Sunflower';}
   
 #logo {float: left; padding-left: 20px;}
@@ -11,12 +12,12 @@ header {
 *{font-family: 'Sunflower';}
 a{text-decoration-line: none;}
 
-@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
 
 
 
 #wrap{
   min-width:100%; width:100%; height:78vh; margin-top: 1vh ; margin-bottom: 1vh ;
+  background-color: #D9EEE1;
 }
 
 .modal.show {
@@ -66,7 +67,51 @@ a{text-decoration-line: none;}
 
 /* 카테고리 */
 
-  #lnb {
+
+#topMenu {            
+        display: flex;
+        justify-content: center;
+        height: 60px; 
+        width: 100%; 
+
+}
+#topMenu ul li {                       
+        list-style: none;           
+        color: #282A35;              
+        background-color: white;  
+        float: left;                /* <li>태그들이 왼쪽에 흐르게 설정(그러면 아래있는 내용은 오른쪽으로 옴)*/
+        line-height: 60px;          /*  글씨가 가운데로 오도록 설정하기 위해 한줄의 높이를 30px로 설정 */
+        vertical-align: middle;     /*  세로 정렬을 가운데로 설정(위의 line-height와 같이 설정 필요함)*/
+        text-align: center;         
+}
+#topMenu .menuLink {                              
+        text-decoration:none;                      /*  링크(<a> 태그)가 가지는 기본 꾸밈 효과(밑줄 등)을 없앰*/
+        color: #282A35;                            
+        display: block;                            /*  링크를 글씨가 있는 부분 뿐만아니라 전체 영역을 클릭해도 링크가 걸리게 설정*/
+        width: 150px;                              /*  메뉴링크의 넓이 설정*/
+        font-size: 15px;                         
+        font-family: "Trebuchet MS", Dotum, Arial; /*  기본 폰트 적용, 시스템 폰트를 종류별로 순서대로*/
+}
+
+#topMenu .menuLink>#free {
+  color: red;
+}
+
+#topMenu .menuLink:hover {           
+        color: white;                   
+        background-color: #D9EEE1;   
+}         
+#topMenu #f{background-image: url('images/qna.png');}
+#free:hover{background-image: url('/images/fashion.png');}
+
+
+
+
+
+
+
+
+  /* #lnb {
     display: block;  
     position: relative;
     border: 10px solid aliceblue;
@@ -83,14 +128,15 @@ a{text-decoration-line: none;}
     border-radius: 20px;
     padding-left: 150px;
     padding-right: 150px;
-  }
+  } */
 
 
 /* footer */
 
   footer {
     width:100%; height: 100px; margin:0 auto; padding:15px 0 40px; 
-   background:linear-gradient(45deg,lightgreen,yellow);
+    /* background-color: #FFF4A3; */
+    background-color: #f5f5f5;
   }
   
   footer>ul {
