@@ -134,13 +134,15 @@
                 <div class="vote_wrap">
                     <div class="vote_view">
                         <div class="vote_header">
+                            <img src="images/choiceimg1.png" alt="" class="bbb" width="50px" height="50px">
                             <p class="vote_title">
                                 <strong class="vote_title_text">글 제목</strong>
                             </p>
+                            <img src="images/choiceimg1.png" alt="" class="bbb" width="50px" height="50px">
                         </div>
                         <div class="vote_list">
                             <div class="vote_hm">
-                                <span>복수 선택 가능</span>
+                                <span>1개 선택 가능</span>
                             </div>
                             <ul class="list">
                                 <li>
@@ -177,10 +179,8 @@
                             <button href="" role="button" id="vchoice">
                                 <span>투표하기</span>
                             </button>
-                            <button href="" role="button" id="vexit">
-                                <span>
-                                    나가기
-                                </span>
+                            <button onclick="location.href='index.html';" role="button" id="vexit">
+                                <span>나가기</span>
                             </button>
                         </div>
                         <div class="comment">
@@ -201,13 +201,13 @@
                                 </ul>
                             </div>
                             <div class="cmt_write">
-                                <form action="#">
+                                <form action="readform.html">
                                     <textarea type="text" id="cmt_content" placeholder="댓글 내용을 입력해주세요" rows="2"></textarea>
-                                    <div class="aaaa">
-                                        <button type="submit">댓글입력</button>
-                                        <button type="reset">입력취소</button>
-                                    </div>
-                                </form><br>
+                                <div class="aaaa">
+                                    <button type="submit">댓글입력</button>
+                                    <button type="reset">입력취소</button>
+                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
