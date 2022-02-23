@@ -1,21 +1,22 @@
 
 /* header */
-#header {display:inline-block; width: 100%; height: 10vh; padding-right: 20px;}
+header {
+  width: 100%; height: 100px; padding-right: 20px;
+  background:linear-gradient(45deg,lightgreen,yellow);
+  font-family: 'Sunflower';}
+  
 #logo {float: left; padding-left: 20px;}
 #gnb>ul{display:flex; justify-content: flex-end; list-style: none;}
 #gnb>ul>li {padding-left: 20px; }
 *{font-family: 'Sunflower';}
 a{text-decoration-line: none;}
 
-
-
-#header {display:inline-block; width: 100%; height:10vh;}
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
 
 
 
 #wrap{
   min-width:100%; width:100%; height:78vh; margin-top: 1vh ; margin-bottom: 1vh ;
-  /* background:linear-gradient(45deg,lightgreen,yellow); */
 }
 
 .modal.show {
@@ -54,7 +55,10 @@ a{text-decoration-line: none;}
     padding-right: 150px;
   }
  
- 
+ #writing{
+    display: flex;
+    justify-content: center;
+ }
 
 
 
@@ -76,7 +80,6 @@ a{text-decoration-line: none;}
     list-style: none;
     display: flex;
     justify-content:space-around;
-    border: 2px solid hotpink;
     border-radius: 20px;
     padding-left: 150px;
     padding-right: 150px;
