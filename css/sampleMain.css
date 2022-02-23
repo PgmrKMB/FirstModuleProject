@@ -32,11 +32,11 @@ a{text-decoration-line: none;}
     left: 50%;
 
     width: 55vw;
-    height: 75vh;
+    height: 450px;
 
     padding: 20px;
 
-    text-align: center;
+    /* text-align: center; */
 
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
