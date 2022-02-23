@@ -37,3 +37,23 @@ table td:nth-child(3) { text-align: left; }
 .bottom_right select { height:22px; }
 .bottom_right input { width:130px; height:18px; padding:0 20px 0 5px; }
 .bottom_right .btn{ display: inline-block; background:url(../img/bottomsrc.jpg) no-repeat; border:none; position:absolute; top:3px; right:2px; width:18px; height:18px; padding:0; }
+
+
+
+#container button {
+    cursor: pointer;
+    background: #FF4B2B;
+    font-weight: 600;
+    float:right;
+}
+
+.btn_style2 {
+    font-size: 9pt;
+    width: 70px;
+    padding: 8px 0;
+    background: #777;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-left: 5px;
+}
