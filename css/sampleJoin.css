@@ -11,8 +11,8 @@
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
 	height: 78vh;
-	margin-top:1vh ;
-	margin-bottom:1vh ;
+	/* margin-top:1vh ;
+	margin-bottom:1vh ; */
 }
 
 h1 {

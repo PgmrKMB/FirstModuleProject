@@ -1,5 +1,5 @@
 
-#wrap{ min-width:100%; width:100%; }
+#wrap{ min-width:100%; width:100%; margin-top: 1vh; margin-bottom: 1vh;}
 
 /*컨테이너 시~작*/
 #container { width:900px; margin:0 auto; padding:30px 0; position:relative; }
@@ -18,7 +18,7 @@
 table { width:100%; text-align: center; border-spacing: 0;  font-size:13px; position:relative; }
 table th { padding:5px 0; background:#f0f0f0; }
 table td {padding:8px 0; border-bottom:1px solid #eee; }
-table td:nth-child(3) { text-align: left; } 
+/* table td:nth-child(3) { text-align: left; }  */
 
 /*페이지*/
 .pager { margin: 25px 0 0; }
