@@ -1,0 +1,56 @@
+.vote_wrap {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.vote_header{
+    font-size: 2rem;
+}
+
+.vote_hm {
+
+}
+
+.vote_btn {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.comment {
+    
+}
+
+
+.cmt_list {
+    list-style-type:'😋';
+    font-size: 0.8rem;
+}
+
+.cmt_list_write textarea {
+    margin-left: 15px;
+    box-sizing: border-box;
+	border: solid 3px #1E90FF;
+	border-radius: 5px;
+    width: 350px;
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+    resize: none;
+}
+
+.cmt_list_write button {
+    display:inline-block;
+    position: relative;
+    border: 3px solid #1e90ff;
+    border-radius: 10px;
+    background: white;
+    left: 295px;
+}
+.cmt_list_write button:hover {
+    display:inline-block;
+    border-radius: 10px;
+    background-color: #1E90FF;
+    color: white;
+}
