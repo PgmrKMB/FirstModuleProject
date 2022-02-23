@@ -79,14 +79,14 @@
     color: white;
 }
 
-.cmt_write {
-   
-}
-
-.cmt_write form {
-  
-}
-
 .aaaa {
     text-align: right;
 }
+
+.pager { margin: 10px 0 0; }
+.pager ul { display: flex; justify-content: center; }
+.pager li { display: inline-block; margin:0 2px; }
+.pager .on a { font-weight: bold; }
+.pager a { font-weight: bold; text-decoration-line:none;}
+
+.pager li .prev, .pager li .next {margin: 0 5px;}
