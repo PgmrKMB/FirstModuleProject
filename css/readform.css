@@ -4,6 +4,10 @@
     background-color: antiquewhite ;
 }
 
+.vote_view {
+   
+    /* width: 50%; */
+}
 
 .vote_header{
     display: flex;
@@ -13,7 +17,7 @@
 }
 
 .vote_list {
-    display: flex;    
+    display: flex;
 }
 
 .vote_hm {
@@ -37,6 +41,8 @@
 }
 
 .comment {
+   
+    width: 100%;
     
 }
 
@@ -46,7 +52,7 @@
     font-size: 0.8rem;
 }
 
-.cmt_list_write textarea {
+.cmt_write textarea {
     margin-left: 15px;
     box-sizing: border-box;
 	border: solid 3px #1E90FF;
@@ -58,17 +64,29 @@
     resize: none;
 }
 
-.cmt_list_write button {
+.cmt_write button {
     display:inline-block;
     position: relative;
     border: 3px solid #1e90ff;
     border-radius: 10px;
     background: white;
-    left: 220px;
+    /* left: 220px; */
 }
-.cmt_list_write button:hover {
+.cmt_write button:hover {
     display:inline-block;
     border-radius: 10px;
     background-color: #1E90FF;
     color: white;
+}
+
+.cmt_write {
+   
+}
+
+.cmt_write form {
+  
+}
+
+.aaaa {
+    text-align: right;
 }
