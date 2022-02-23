@@ -49,19 +49,22 @@
                 </button>
                 <button href="" role="button" id="vexit">
                     <span>
-                        투표 종료하기
+                        나가기
                     </span>
                 </button>
             </div>
             <div class="comment">
                 <ul class="cmt_list">
-                    <li>어디 사세요? 김치찌개 JMT 맛집 추천해드릴까요??</li>
+                    <li>어디 사세요? 김치찌개 맛집 추천해드릴까요??</li>
                     <li>든든하게 국밥 한그릇이 낫지 않아?</li>
                     <li>내 원픽은 갈비탕!!</li>
                 </ul>
                 <div class="cmt_list_write">
-                    <textarea type="text" id="cmt_content" placeholder="댓글 내용을 입력해주세요" rows="3"></textarea>
-                    <button type="submit">댓글입력</button>
+                    <form action="index.html" method="post">
+                        <textarea type="text" id="cmt_content" placeholder="댓글 내용을 입력해주세요" rows="3"></textarea>
+                        <button type="submit">댓글입력</button>
+                        <button type="reset">입력취소</button>
+                    </form>
                 </div>
             </div>
         </div>
