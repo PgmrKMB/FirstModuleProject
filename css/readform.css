@@ -4,12 +4,29 @@
     background-color: antiquewhite ;
 }
 
+
 .vote_header{
+    display: flex;
+    justify-content: center;
     font-size: 2rem;
+    
+}
+
+.vote_list {
+    display: flex;    
 }
 
 .vote_hm {
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    font-size: 0.9em;
+    color: cadetblue;
+}
 
+.vote_list .list {
+    list-style: none;
+    
 }
 
 .vote_btn {
