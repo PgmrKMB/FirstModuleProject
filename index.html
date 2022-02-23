@@ -18,8 +18,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link href="/css/sampleMain.css" rel="stylesheet">
 
-    <style>
+    <!-- 모달내용 -->
+    <link href="/css/readform.css" rel="stylesheet">
 
+    <style>
     @import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
     </style>
 
@@ -117,7 +119,73 @@
     <!-- #wrap -->
     <div id="modalwrap">
         <div class="modal">
-            <div class="modal_body">어떤거 살까??</div>
+            <div class="modal_body">
+                <div class="vote_wrap">
+                    <div class="vote_view">
+                        <div class="vote_header">
+                            <p class="vote_title">
+                                <strong class="vote_title_text">글 제목</strong>
+                            </p>
+                        </div>
+                        <div class="vote_list">
+                            <div class="vote_hm">
+                                <span>복수 선택 가능</span>
+                            </div>
+                            <ul class="list">
+                                <li>
+                                    <div class="vote_list_item">
+                                        <div class="vote_check">
+                                            <div class="label_box"><input id="vote1" type="checkbox" class="input_check">
+                                                <label for="vote1" class="label_text">김치찌개</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="vote_list_item">
+                                        <div class="vote_check">
+                                            <div class="label_box"><input id="vote2" type="checkbox" class="input_check">
+                                                <label for="vote2" class="label_text">된장찌개</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="vote_list_item">
+                                        <div class="vote_check">
+                                            <div class="label_box"><input id="vote3" type="checkbox" class="input_check">
+                                                <label for="vote3" class="label_text">갈비탕</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+            
+                        </div>
+                        <div class="vote_btn">
+                            <button href="" role="button" id="vchoice">
+                                <span>투표하기</span>
+                            </button>
+                            <button href="" role="button" id="vexit">
+                                <span>
+                                    투표 종료하기
+                                </span>
+                            </button>
+                        </div>
+                        <div class="comment">
+                            <ul class="cmt_list">
+                                <li>어디 사세요? 김치찌개 JMT 맛집 추천해드릴까요??</li>
+                                <li>든든하게 국밥 한그릇이 낫지 않아?</li>
+                                <li>내 원픽은 갈비탕!!</li>
+                            </ul>
+                            <div class="cmt_list_write">
+                                <textarea type="text" id="cmt_content" placeholder="댓글 내용을 입력해주세요" rows="3"></textarea>
+                                <button type="submit">댓글입력</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="modal">
             <div class="modal_body">여행지 골라줘!</div>
@@ -152,10 +220,13 @@
     <script>
         const body = document.querySelector('body');
         const modal = document.querySelector('.modal');
-        const btnOpenPopup = document.querySelector('.open-popup');
+        const btnOpenPopup = document.querySelectorAll('.open-popup');
 
-        btnOpenPopup.addEventListener('click', () => {
-            modal.classList.toggle('show');
+        btnOpenPopup.forEach((aaa) => {
+            aaa.addEventListener('click',()=>{
+                modal.classList.toggle('show');
+
+            })
 
             if (modal.classList.contains('show')) {
                 body.style.overflow = 'hidden';
