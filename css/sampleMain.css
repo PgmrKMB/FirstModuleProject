@@ -59,7 +59,8 @@ a{text-decoration-line: none;}
 #topMenu .menuLink:hover {           
         color: #282A35;
         font-weight: bold;                   
-        background-color: #D9EEE1;   
+        background-color: #D9EEE1;  
+        border-radius: 50px; 
         list-style: none;                        
         float: left;                /* <li>태그들이 왼쪽에 흐르게 설정(그러면 아래있는 내용은 오른쪽으로 옴)*/
         line-height: 60px;          /*  글씨가 가운데로 오도록 설정하기 위해 한줄의 높이를 30px로 설정 */
@@ -67,8 +68,18 @@ a{text-decoration-line: none;}
         text-align: center; 
       }         
 
+
+
+
+
+      
 #topMenu #eat:hover img{ display: none; }
 #topMenu #eat:hover:after { content: '뭐 먹을까';}
+
+
+
+
+
 
   /* #lnb {
     display: block;  
@@ -95,6 +106,7 @@ a{text-decoration-line: none;}
 #writing{
    display: flex;
    justify-content: center;
+   padding-top: 50px;
 }
 
 
