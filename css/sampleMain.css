@@ -6,7 +6,13 @@ header {
   /* background:linear-gradient(45deg,lightgreen,yellow); */
   font-family: 'Sunflower';}
   
-#logo {float: left; padding-left: 20px;   }
+#logo {
+  float: left; padding-left: 20px;  
+  position: relative; top:20px;
+}
+
+#title{position: relative; top:45px; left: 30px; font-size: 30px; }
+
 #gnb>ul{
   display:flex; justify-content: flex-end; 
   list-style: none; line-height: 20px;
@@ -68,13 +74,21 @@ a{text-decoration-line: none;}
         text-align: center; 
       }         
 
+    
+#topMenu #free:hover img{ display: none; }
+#topMenu #free:hover:after { content: '자유 주제';}
 
-
-
-
-      
 #topMenu #eat:hover img{ display: none; }
 #topMenu #eat:hover:after { content: '뭐 먹을까';}
+
+#topMenu #fashion:hover img{ display: none; }
+#topMenu #fashion:hover:after { content: '뭐 입을까';}
+
+#topMenu #move:hover img{ display: none; }
+#topMenu #move:hover:after { content: '갈까 말까';}
+
+#topMenu #buy:hover img{ display: none; }
+#topMenu #buy:hover:after { content: '살까 말까';}
 
 
 
