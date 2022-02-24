@@ -24,51 +24,6 @@ a{text-decoration-line: none;}
   background-color: #D9EEE1;
 }
 
-.modal.show {
-  display: block;
-}
-
-.modal { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; background-color: rgba(0, 0, 0, 0.4); }
-
-.modal_body {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-    width: 55vw;
-    height: 450px;
-
-    padding: 20px;
-
-    /* text-align: center; */
-
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
-
-    transform: translateX(-50%) translateY(-50%);
-  }
-
-  /* #wrap {background:linear-gradient(45deg,lightgreen,yellow);} */
-
-  
-  #container {
-    display:flex;
-    position: relative;
-    justify-content: center;
-    padding-left: 150px;
-    padding-right: 150px;
-  }
- 
- #writing{
-    display: flex;
-    justify-content: center;
- }
-
-
-
-
-
 /* 카테고리 */
 
 
@@ -108,12 +63,7 @@ a{text-decoration-line: none;}
 #topMenu #f{background-image: url('images/qna.png');}
 #free:hover{background-image: url('/images/fashion.png');}
 
-
-
-
-
-
-
+#topMenu #eat{opacity: 0;}
 
   /* #lnb {
     display: block;  
@@ -135,6 +85,58 @@ a{text-decoration-line: none;}
   } */
 
 
+
+ /* 글쓰기 버튼 */
+#writing{
+   display: flex;
+   justify-content: center;
+}
+
+
+/* 표 */
+#container {
+  display:flex;
+  position: relative;
+  justify-content: center;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.table{
+  height: 30px;
+}
+
+
+/* 모달 */
+.modal.show {
+  display: block;
+}
+
+.modal { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; background-color: rgba(0, 0, 0, 0.4); }
+
+.modal_body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 55vw;
+    height: 450px;
+
+    padding: 20px;
+
+    /* text-align: center; */
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+
+
+  
+ 
 /* footer */
 
   footer {
