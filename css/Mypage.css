@@ -1,15 +1,16 @@
-  #container h2 {
+  #mpcontainer h2 {
     text-align: center;
   }
 
   #mpWrap {
-    padding: 50px 0 20px;
-    position: relative;
+    display: flex;
+    justify-content: center;
   }
 
   .profile {
     display: flex;
     justify-content: center;
+    width: 450px;
   }
 
   .profile>div {
@@ -19,7 +20,6 @@
   .profile .ppic {
     width: auto;
     padding-right: 70px;
-    border-right: 1px solid #c2bec7;
     margin-right: 50px;
     height: 100%;
   }
@@ -50,8 +50,8 @@
 
   .profile .pinfo {
     margin-top: 30px;
+    margin-right: 30px;
     font-size: 13px;
-    line-height: 1.5em;
   }
 
   .profile .pinfo p {
@@ -63,6 +63,23 @@
   .profile .pinfo .name {
     margin-bottom: 10px;
     font-size: 14px;
+  }
+
+  .writeList{
+    display: flex ;
+    justify-content: center;
+  }
+ 
+  .writeList_cf{
+    display: flex ;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+  }
+
+  .writeList_cf li{
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
 
@@ -96,6 +113,10 @@
     margin-left: 15px;
     outline: none;
   }
+  
+  .editp li .nickw {
+    margin-left: 10px;
+  }
 
   .editp li .phone {
     width: 50px;
@@ -107,7 +128,7 @@
 
   .editp .alert {
     font-size: 11px;
-    color: #f00;
+    color: red;
   }
 
   .editp .no {

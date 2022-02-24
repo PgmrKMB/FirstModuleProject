@@ -25,26 +25,31 @@
         </nav> -->
     <!-- </header> -->
     <!-- #header -->
-    <div id="container">
+    <div id="mpcontainer">
         <h2>마이페이지</h2>
-        <div id="mpWrap">
-            <div class="profile cf">
-                <div class="pinfo">
-                    <p class="name">닉네임</p>
-                    <p class="email"><span>abcd</span>@<span>naver.com</span></p>
+        <div>
+            <div id="mpWrap">
+                <div class="profile cf">
+                    <div class="pinfo">
+                        <p class="name">닉네임</p>
+                        <p class="email"><span>abcd</span>@<span>naver.com</span></p>
+                    </div>
+                    <div class="ppic">
+                        <img src="images/profile.png" alt="프로필사진" class="pimg">
+                        <input type="file" id="file" class="fileBtn" accept="image/*">
+                        <label for="file" class="fileOpen">프로필 사진 변경</label>
+                    </div>
                 </div>
-                <div class="ppic">
-                    <img src="images/profile.png" alt="프로필사진" class="pimg">
-                    <input type="file" id="file" class="fileBtn" accept="image/*">
-                    <label for="file" class="fileOpen">프로필 사진 변경</label>
-                </div>
-                <div class="writeList cf">
-                    <div class="mypost"><a href="mypost.html">내가 쓴 글 보기</a></div>
-                    <div class="myreply"><a href="myreply.html">내가 쓴 댓글 보기</a></div>
-                    <div class="myreply"><a href="myreply.html">내가 투표 한 글</a></div>
-                </div>
+                <!--.profile 프로필-->
+            </div><br>
+            <!--#mpWrap-->
+            <div class="writeList">
+                <ul class="writeList_cf">
+                    <li class="mypost"><a href="mypost.html">내가 쓴 글 보기</a></li>
+                    <li class="myreply"><a href="myreply.html">내가 쓴 댓글 보기</a></li>
+                    <li class="myreply"><a href="myreply.html">내가 투표 한 글</a></li>
+                </ul>
             </div>
-            <!--.profile 프로필-->
             <!--.writList 내가 쓴~-->
             <div class="editp">
                 <h3>회원정보수정</h3>
@@ -55,17 +60,16 @@
                         <span class="no alert">사용 중인 닉네임입니다.</span>
                     </li>
                     <li><label for="pw" class="lb">비밀번호 변경 </label><input type="password">
-                    <li><label for="pw" class="lb">비밀번호 확인 </label><input type="password">
+                    <li><label for="pwc" class="lb">비밀번호 확인 </label><input type="password">
                     </li>
                 </ul>
                 <input type="submit" value="적용" class="submit">
             </div>
             <!--.infoEdit 정보수정-->
-            <a href="#" class="del">탈퇴하기</a>
         </div>
-        <!--#mpWrap-->
     </div>
-    <!--container-->
+    <a href="#" class="del">탈퇴하기</a><br>
+    <!--mpcontainer-->
     <iframe src="footer.html" width="100%" height="150px" style="overflow-x:hidden; overflow-y:hidden" scrolling="no"
         frameborder="0" marginwidth="0" marginheight="0"></iframe>
 </body>
