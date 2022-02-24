@@ -1,3 +1,7 @@
+  #mpcontainer {
+    width: 100%;
+    height: 595px;
+  }
   #mpcontainer h2 {
     text-align: center;
   }
