@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 
-
 #pollContainer body, #pollContainer div, #pollContainer dl, #pollContainer dt, #pollContainer dd, #pollContainer ul, #pollContainer ol, #pollContainer li, #pollContainer h1, #pollContainer h2, #pollContainer h3, #pollContainer h4, #pollContainer h5, #pollContainer h6, #pollContainer pre, #pollContainer code, #pollContainer form, #pollContainer fieldset, #pollContainer legend, #pollContainer textarea, #pollContainer p, #pollContainer blockquote, #pollContainer th, #pollContainer td, #pollContainer input, #pollContainer select, #pollContainer button {
 	margin: 0;
 	padding: 0;
@@ -80,7 +79,7 @@
 }
 
 #pollContainer code {
-	display: block;
+	display: inline-block;
 }
 
 #pollContainer #kakaoIndex {

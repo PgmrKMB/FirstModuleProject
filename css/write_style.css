@@ -86,10 +86,15 @@
 
 #pollContainer .section_vote {
 	padding: 41px 42px;
+	width: 50vw;
+	margin-left :22%
+	
+	
 }
 
 #pollContainer .section_header {
 	padding-bottom: 20px;
+	display: inline-block;
 }
 
 #pollContainer .category_choice {
