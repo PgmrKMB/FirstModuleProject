@@ -31,6 +31,12 @@
 	display: none;
 }
 
+
+[type=date] {
+	float: right;
+}
+
+
 #pollContainer button {
 	border: 0 none;
 	background-color: transparent;
