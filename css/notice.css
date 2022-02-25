@@ -56,4 +56,5 @@ table td {padding:8px 0; border-bottom:1px solid #eee; }
     border: 1px solid white;
     border-radius: 7px;
     margin-left: 5px;
+    float: right;
 }
