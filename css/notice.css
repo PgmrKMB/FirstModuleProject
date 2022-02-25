@@ -1,9 +1,8 @@
-
-#wrap{ min-width:100%; width:100%;   height: 645px;}
-
+#wrap{ min-width:100%; width:100%;  height: 645px;}
 
 /*컨테이너 시~작*/
-#container { width:900px; margin:0 auto; padding:30px 0; position:relative; height:588px; }
+#container_noti { width:900px; margin:0 auto; padding:30px 0; position:relative; height: 593px; }
+#container_admin { width:900px; margin:0 auto; padding:30px 0; position:relative; height: 593px; }
 
 .mainTop { margin-bottom: 20px; }
 .mainTop h2 { margin-bottom:20px; font-weight:900; }
