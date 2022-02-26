@@ -12,11 +12,15 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500&display=swap" rel="stylesheet"> -->
-        <!-- 폰트 -->
-        <link href="css/Main.css" rel="stylesheet">
-        <!-- 버튼  -->
-        <link href="css/readform.css" rel="stylesheet">
-        <!-- 모달내용 -->
+    <!-- 폰트 -->
+    <link href="css/Main.css" rel="stylesheet">
+    <!-- 버튼  -->
+    <link href="css/readform.css" rel="stylesheet">
+    <!-- 모달내용 -->
+    <meta property="og:title" content="꼬렙" />
+    <meta property="og:description" content="보고 있는 페이지의 내용 요약" />
+    <meta property="og:image" content="https://img.icons8.com/color-glass/344/ok.png">
+    <!-- OG(OpenGraph) -->
 </head>
 
 <body>
@@ -136,7 +140,8 @@
                                 <li>
                                     <div class="vote_list_item">
                                         <div class="vote_check">
-                                            <div class="label_box"><input id="vote1" type="checkbox" class="input_check">
+                                            <div class="label_box"><input id="vote1" type="checkbox"
+                                                    class="input_check">
                                                 <label for="vote1" class="label_text">김치찌개</label>
                                             </div>
                                         </div>
@@ -145,7 +150,8 @@
                                 <li>
                                     <div class="vote_list_item">
                                         <div class="vote_check">
-                                            <div class="label_box"><input id="vote2" type="checkbox" class="input_check">
+                                            <div class="label_box"><input id="vote2" type="checkbox"
+                                                    class="input_check">
                                                 <label for="vote2" class="label_text">된장찌개</label>
                                             </div>
                                         </div>
@@ -154,14 +160,15 @@
                                 <li>
                                     <div class="vote_list_item">
                                         <div class="vote_check">
-                                            <div class="label_box"><input id="vote3" type="checkbox" class="input_check">
+                                            <div class="label_box"><input id="vote3" type="checkbox"
+                                                    class="input_check">
                                                 <label for="vote3" class="label_text">갈비탕</label>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
-            
+
                         </div>
                         <div class="vote_btn">
                             <button href="" role="button" id="vchoice">
@@ -190,11 +197,12 @@
                             </div>
                             <div class="cmt_write">
                                 <form action="readform.html">
-                                    <textarea type="text" id="cmt_content" placeholder="댓글 내용을 입력해주세요" rows="2"></textarea>
-                                <div class="aaaa">
-                                    <button type="submit">댓글입력</button>
-                                    <button type="reset">입력취소</button>
-                                </div>
+                                    <textarea type="text" id="cmt_content" placeholder="댓글 내용을 입력해주세요"
+                                        rows="2"></textarea>
+                                    <div class="aaaa">
+                                        <button type="submit">댓글입력</button>
+                                        <button type="reset">입력취소</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -207,7 +215,7 @@
     <!-- modalwrap -->
 
     <iframe src="footer.html" width="100%" height="150px" style="overflow-x:hidden; overflow-y:hidden" scrolling="no"
-        frameborder="0" ></iframe>
+        frameborder="0"></iframe>
     <!-- footer -->
     <script>
         const body = document.querySelector('body');
