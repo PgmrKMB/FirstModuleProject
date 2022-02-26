@@ -68,6 +68,11 @@ a{text-decoration-line: none;}
   text-align: center; 
 }         
 
+#topMenu #free{ transition: 0.5s }
+#topMenu #eat{ transition: 0.5s }
+#topMenu #fashion{ transition: 0.5s }
+#topMenu #move{ transition: 0.5s }
+#topMenu #buy{ transition: 0.5s }
 
 #topMenu #free:hover img{ display: none; }
 #topMenu #free:hover:after { content: '자유 주제';}
